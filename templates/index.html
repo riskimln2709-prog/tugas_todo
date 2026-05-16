@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do OOP</title>
+</head>
+<body>
+
+<h2>To-Do List (OOP Version)</h2>
+
+<form method="POST" action="/add">
+    <label>Tugas:</label><br>
+    <input type="text" name="task" placeholder="Masukkan tugas..." required>
+    <br><br>
+    <label>Tanggal Tugas:</label><br>
+    <input type="date" name="date" required>
+    <br><br>
+    <button type="submit">Simpan</button>
+</form>
+
+<hr>
+
+<ul>
+    {% for task in tasks %}
+    <li>
+        {{ task.title }} - {{ task.date }}
+        <a href="/delete/{{ loop.index0 }}">Hapus</a>
+    </li>
+    {% endfor %}
+</ul>
+
+</body>
+</html>
