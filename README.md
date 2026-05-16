@@ -1,2 +1,3 @@
 Gambar hasil todo app 
-<img width="1920" height="1080" alt="Screenshot (297)" src="https://github.com/user-attachments/assets/7b1a758b-56fb-492e-a4c3-46f63c35cb09" />
+<img width="1920" height="1017" alt="Screenshot (297)" src="https://github.com/user-attachments/assets/ab3a7321-8a1a-4f02-8169-df4fdf3c081a" />
+
